@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    width:100%;
+    height:100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.back{
+    background-image: url(bck2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+.top_name{
+    font-family: 'Poiret One', cursive;
+    color:white;
+    padding-left: 1cm;
+    font-size: 35px;
+    padding-top:17px;
+    float: left;
+    top:1px;
+}
+
+.nav{
+    width: 350 px;
+    height:auto;
+    position: fixed;
+    right:0;
+    padding-top: 17px;
+    float: right;
+}
+.a{
+    color:white;
+}
+.nav a{
+    text-decoration:none;
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;       
+    width:100%;
+    letter-spacing: .5px;
+    padding-right: 50px;
+    color:black;
+    transition: 300ms;
+
+}
+ a.active,.nav a:hover {
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+    letter-spacing:.5px;
+	color: white;
+}
+.content{
+    width :1400px;
+    height:300px;
+    position: absolute;
+    top:20%;
+    left :7%;
+}
+.home{
+    top:35%;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-family: 'Bangers';
+    font-size:200px;
+}
+.abi{
+    
+    
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    font-size:35px; 
+    text-align: center; 
+    
+}
+.about{
+
+    font-size:17px;
+    line-height: 30px;
+    color:white;
+    display: none;
+    font-family: "Montserrat";
+    margin-left:130px;
+    margin-right:200px;
+}
+.projects{
+    font-size:17px;
+    line-height: 30px;
+    color:white;
+    display: none;
+    font-family: "Montserrat";
+    margin-left:130px;
+    margin-right:200px;
+}
+.pri{
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    font-size:35px; 
+    text-align: center; 
+    
+}
+.contact{
+    position: realtive;
+    top:10px;
+    color:white;
+    padding:0 60px;
+    display:none;
+    right:10px;
+
+}
+.it{
+    width:800px;
+    height:65px;
+    border:3px solid black;
+    color:white;
+    background-color: rgba(0, 0,0, 0.7);
+    margin-bottom: 20px;
+        
+    margin-right:10px;
+}
+.im{
+    width:800px;
+    height:100px;
+    border:3px solid black;
+    color:white;
+    background-color: rgba(0, 0,0, 0.7);
+    margin-bottom: 20px;    
+    float: left;
+}
+.sb{
+    width:160px;
+    height:65px;
+    background-color: white;
+    color:black;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-left:300px;
+}
+.nav.black{
+    background-color: black;
+    height:80px;
+    padding:10px 50px;
+}
